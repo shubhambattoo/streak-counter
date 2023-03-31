@@ -1,0 +1,38 @@
+{
+  "name": "@shubhambattoo/streak-counter",
+  "version": "0.0.1",
+  "description": "a basic streak counter",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shubhambattoo/streak-counter"
+  },
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "source": "src/index.ts",
+  "exports": {
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch",
+    "test": "vitest"
+  },
+  "keywords": [
+    "typescript",
+    "streak-counter"
+  ],
+  "author": "shubhambattoo",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.1",
+    "jsdom": "^21.1.1",
+    "microbundle": "^0.15.1",
+    "typescript": "^5.0.3",
+    "vite": "^4.2.1",
+    "vitest": "^0.29.8"
+  }
+}
