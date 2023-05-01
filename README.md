@@ -14,7 +14,7 @@ yarn add streak-counter
 ## Usage
 
 ```typescript
-import { streakCounter } from "@jsjoeio/streak-counter";
+import { streakCounter } from "@shubhambatt997/streak-counter";
 const today = new Date();
 const streak = streakCounter(localStorage, today);
 // streak returns an object:
